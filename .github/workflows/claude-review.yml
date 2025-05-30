@@ -37,4 +37,5 @@ jobs:
             - Overall architecture and design decisions
 
             Be constructive and specific in your feedback. Give inline comments where applicable.
+            出力は日本語で。lang:ja
           allowed_tools: "mcp__github__add_pull_request_review_comment"
