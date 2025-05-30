@@ -43,4 +43,4 @@ jobs:
           claude_expires_at: ${{ secrets.CLAUDE_EXPIRES_AT }}
 
           timeout_minutes: 30
-          direct_prompt: "コメントやプルリクのサマリーなど、ドキュメント類はすべて日本語でお願いします。lang:ja"
+          direct_prompt: "内容を確認し、コードの実装やレビューを適切に実行してください。コード品質、潜在的バグ、パフォーマンスに注意し、適切な改善をください。コメントやプルリクのサマリーなど、ドキュメント類はすべて日本語でお願いします。lang:ja"
